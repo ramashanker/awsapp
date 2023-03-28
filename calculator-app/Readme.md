@@ -21,9 +21,15 @@ mvn spring-boot:run
 ## Curl Commend
 
 ### Addition
+
 ``` 
 curl -X GET 'http://localhost:8080/substraction?a=9&b=5'
 
+```
+
+### Substraction
+
+```
 curl -X GET 'http://localhost:8080/addition?a=9&b=5'
 ```
 
